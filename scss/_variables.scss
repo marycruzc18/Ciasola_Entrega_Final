@@ -1,0 +1,24 @@
+$gradiente:background linear-gradient(
+    26.99deg,
+    #BF8A7E -38.03%,
+    rgba(101, 54, 158, 0) 137.84%
+  ); 
+
+  $gradiente_2:background linear-gradient(
+    180deg,
+    #D9B5A0 -18.18%,
+    rgba(217, 217, 217, 0) 
+  );
+
+$breakpoints:(
+  xxs:320px,
+  xs: 468px,
+  sm: 576px,
+  md: 768px,
+  lg: 1024px
+
+);
+
+
+
+

@@ -1,0 +1,287 @@
+body {
+  font-family: 'Montserrat', sans-serif; }
+
+body, html {
+  width: 100%;
+  overflow-x: hidden; }
+
+header nav {
+  background: background linear-gradient(26.99deg, #BF8A7E -38.03%, rgba(101, 54, 158, 0) 137.84%);
+  font-size: 1.2em; }
+  header nav .carrito {
+    width: 16px;
+    height: 16px; }
+
+header .logo {
+  width: 100px;
+  height: 100px; }
+
+header .buscar:focus {
+  box-shadow: 0 0 0 0rem rgba(0, 0, 0, 0) !important;
+  border-color: #BF8A7E !important;
+  cursor: pointer; }
+
+header .buscar::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 10px;
+  width: 10px;
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE2LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgd2lkdGg9IjEyMy4wNXB4IiBoZWlnaHQ9IjEyMy4wNXB4IiB2aWV3Qm94PSIwIDAgMTIzLjA1IDEyMy4wNSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMTIzLjA1IDEyMy4wNTsiDQoJIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPHBhdGggZD0iTTEyMS4zMjUsMTAuOTI1bC04LjUtOC4zOTljLTIuMy0yLjMtNi4xLTIuMy04LjUsMGwtNDIuNCw0Mi4zOTlMMTguNzI2LDEuNzI2Yy0yLjMwMS0yLjMwMS02LjEwMS0yLjMwMS04LjUsMGwtOC41LDguNQ0KCQljLTIuMzAxLDIuMy0yLjMwMSw2LjEsMCw4LjVsNDMuMSw0My4xbC00Mi4zLDQyLjVjLTIuMywyLjMtMi4zLDYuMSwwLDguNWw4LjUsOC41YzIuMywyLjMsNi4xLDIuMyw4LjUsMGw0Mi4zOTktNDIuNGw0Mi40LDQyLjQNCgkJYzIuMywyLjMsNi4xLDIuMyw4LjUsMGw4LjUtOC41YzIuMy0yLjMsMi4zLTYuMSwwLTguNWwtNDIuNS00Mi40bDQyLjQtNDIuMzk5QzEyMy42MjUsMTcuMTI1LDEyMy42MjUsMTMuMzI1LDEyMS4zMjUsMTAuOTI1eiIvPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo=);
+  background-size: 10px 10px; }
+
+header .button_nabvar {
+  background: background linear-gradient(180deg, #D9B5A0 -18.18%, rgba(217, 217, 217, 0));
+  outline: none; }
+
+header .button_nabvar:hover {
+  background: background linear-gradient(180deg, #D9B5A0 -18.18%, rgba(217, 217, 217, 0));
+  color: #D9B5A0; }
+
+header .button_nabvar:enabled {
+  background: background linear-gradient(180deg, #D9B5A0 -18.18%, rgba(217, 217, 217, 0));
+  color: #D9B5A0; }
+
+main {
+  min-height: 100%; }
+  main div .img-carrusel {
+    width: 490px;
+    height: 370px; }
+    @media screen and (max-width: 1024px) {
+      main div .img-carrusel {
+        width: 450px;
+        height: 350px; } }
+    @media screen and (max-width: 768px) {
+      main div .img-carrusel {
+        width: 350px;
+        height: 250px; } }
+    @media screen and (max-width: 576px) {
+      main div .img-carrusel {
+        width: 300px;
+        height: 250px; } }
+    @media screen and (max-width: 320px) {
+      main div .img-carrusel {
+        width: 300px;
+        height: 230px; } }
+  main div .contenedor {
+    width: 100%; }
+  main div div .contenedor_imagen {
+    width: 100%;
+    height: 350px;
+    margin: 10px;
+    overflow: hidden;
+    position: relative; }
+    @media screen and (max-width: 1024px) {
+      main div div .contenedor_imagen {
+        height: 300px; } }
+    @media screen and (max-width: 768px) {
+      main div div .contenedor_imagen {
+        height: 200px; } }
+    @media screen and (max-width: 576px) {
+      main div div .contenedor_imagen {
+        height: 280px; } }
+    @media screen and (max-width: 468px) {
+      main div div .contenedor_imagen {
+        height: 180px; } }
+  main div div img {
+    width: 100%;
+    height: 100%;
+    transition: all .3s; }
+  main div div .contenedor_imagen:hover img {
+    filter: blur(1.5px);
+    transition: all .3s;
+    transform: scale(1.5); }
+  main div div .contenedor_imagen::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: all .3s; }
+  main div div .contenedor_imagen:hover::before {
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    transition: all .3s; }
+  main div div .texto {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    color: #ffffff;
+    z-index: 3; }
+  main div div .titulo, main div div .parrafo, main div div .parrafo {
+    margin-top: 150px;
+    margin: 40px;
+    padding: 5px;
+    font-size: 1.3em; }
+    @media screen and (max-width: 1024px) {
+      main div div .titulo, main div div .parrafo, main div div .parrafo {
+        font-size: 1.3em; } }
+    @media screen and (max-width: 768px) {
+      main div div .titulo, main div div .parrafo, main div div .parrafo {
+        margin-top: 50px;
+        margin: 6px;
+        padding: 3px;
+        font-size: 1.2em; } }
+    @media screen and (max-width: 576px) {
+      main div div .titulo, main div div .parrafo, main div div .parrafo {
+        margin-top: 160px;
+        margin: 30px;
+        padding: 5px;
+        font-size: 1.2em; } }
+    @media screen and (max-width: 468px) {
+      main div div .titulo, main div div .parrafo, main div div .parrafo {
+        margin-top: 20px;
+        margin: 5px;
+        padding: 5px;
+        font-size: 1em; } }
+    @media screen and (max-width: 320px) {
+      main div div .titulo, main div div .parrafo, main div div .parrafo {
+        margin-top: 20px;
+        margin: 3px;
+        padding: 3px;
+        font-size: 1em; } }
+  main div div .titulo, main div div .parrafo {
+    position: relative;
+    left: 100%;
+    transition: all .3s; }
+  main div div .contenedor_imagen:hover .titulo, main div div .contenedor_imagen:hover .parrafo {
+    left: 0;
+    animation-delay: .3s;
+    transition: all .3s; }
+  main div div .parrafo {
+    right: 100%; }
+  main div div .contenedor_imagen:hover .parrafo {
+    right: 0;
+    animation-delay: .3s;
+    transition: all .3s; }
+  main div div .boton {
+    position: relative;
+    right: 100%;
+    transition: all .3s; }
+  main div div .btn_principal {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    background: background linear-gradient(180deg, #D9B5A0 -18.18%, rgba(217, 217, 217, 0));
+    color: black;
+    border: none; }
+    @media screen and (max-width: 468px) {
+      main div div .btn_principal {
+        box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19); } }
+  main div div .btn_principal:hover {
+    background: background linear-gradient(180deg, #D9B5A0 -18.18%, rgba(217, 217, 217, 0)); }
+  main div div .contenedor_imagen:hover .boton {
+    right: 0;
+    animation-delay: .3s;
+    transition: all .3s; }
+
+#main_productos {
+  min-height: 100%; }
+  #main_productos nav ol li .breadcrumbs {
+    color: black;
+    text-decoration: none; }
+  #main_productos nav .breadcrumbs-activos {
+    color: #BF8A7E; }
+
+div .card-img {
+  overflow: hidden; }
+
+div .card-img img {
+  transition: all 1.3s ease;
+  cursor: pointer; }
+
+div .card-img:hover img {
+  transform: scale(1.2); }
+
+#main_tips {
+  min-height: 100%; }
+  #main_tips nav ol li .breadcrumbs {
+    color: black;
+    text-decoration: none; }
+  #main_tips nav .breadcrumbs-activos {
+    color: #BF8A7E; }
+
+#main_como_comprar {
+  min-height: 100%; }
+  #main_como_comprar nav ol li .breadcrumbs {
+    color: black;
+    text-decoration: none; }
+  #main_como_comprar nav .breadcrumbs-activos {
+    color: #BF8A7E; }
+  #main_como_comprar section div img {
+    width: 550px;
+    height: 450px; }
+  #main_como_comprar section div div .boton-acordeon {
+    background: background linear-gradient(180deg, #D9B5A0 -18.18%, rgba(217, 217, 217, 0));
+    outline: none;
+    color: black; }
+  #main_como_comprar section div div .boton-acordeon:focus {
+    box-shadow: 0 0 0 0rem rgba(0, 0, 0, 0) !important;
+    border-color: #BF8A7E !important;
+    color: black; }
+  #main_como_comprar section div div .boton-acordeon:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000000'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important; }
+  #main_como_comprar section div div .parrafo_acordeon {
+    text-align: justify; }
+
+#main_contacto {
+  min-height: 100%; }
+  #main_contacto nav ol li .breadcrumbs {
+    color: black;
+    text-decoration: none; }
+  #main_contacto nav .breadcrumbs-activos {
+    color: #BF8A7E; }
+  #main_contacto section .card {
+    background-color: #F2D9D0 !important; }
+  #main_contacto section .input_nombre:focus {
+    box-shadow: 0 0 0 0rem rgba(0, 0, 0, 0) !important;
+    border-color: #BF8A7E !important;
+    cursor: pointer; }
+  #main_contacto section .input_apellido:focus {
+    box-shadow: 0 0 0 0rem rgba(0, 0, 0, 0) !important;
+    border-color: #BF8A7E !important;
+    cursor: pointer; }
+  #main_contacto section .input_mail:focus {
+    box-shadow: 0 0 0 0rem rgba(0, 0, 0, 0) !important;
+    border-color: #BF8A7E !important;
+    cursor: pointer; }
+  #main_contacto section .input_mensaje:focus {
+    box-shadow: 0 0 0 0rem rgba(0, 0, 0, 0) !important;
+    border-color: #BF8A7E !important;
+    cursor: pointer; }
+  #main_contacto section .input_mensaje {
+    width: 100%;
+    height: 200px;
+    resize: none; }
+  #main_contacto section .input-check:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: #BF8A7E !important; }
+  #main_contacto section .input-check:enabled {
+    outline: none;
+    box-shadow: 0 0 0 0rem rgba(0, 0, 0, 0) !important;
+    border-color: #BF8A7E !important;
+    background-color: #BF8A7E; }
+
+#main_error {
+  min-height: 100%; }
+  #main_error .titulo_error {
+    margin-top: 150px;
+    font-size: 5em; }
+    @media screen and (max-width: 320px) {
+      #main_error .titulo_error {
+        font-size: 4.5em; } }
+    @media screen and (max-width: 468px) {
+      #main_error .titulo_error {
+        font-size: 4.3em; } }
+  #main_error .subtitulo_error {
+    line-height: 27px;
+    margin: 25px 0; }
+  #main_error div img {
+    width: 500px;
+    height: 500px; }
+
+footer {
+  margin-top: auto;
+  min-height: 16vh;
+  background: background linear-gradient(26.99deg, #BF8A7E -38.03%, rgba(101, 54, 158, 0) 137.84%); }
